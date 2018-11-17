@@ -3,4 +3,4 @@ jdk: oraclejdk8
 before_install:
   - chmod +x mvnw
 script:
-- ./mvnw clean spring-boot:run -P tomcat
+- ./mvnw clean install -P tomcat
