@@ -1,0 +1,25 @@
+.campos {
+    margin-top: 15px;
+    display: block;
+    width: 100%;
+    height: 400px;
+    overflow: scroll;
+    padding-right: 20px;
+}
+
+.campo-simbolo {
+    margin-top: 15px;
+    display: block;
+    width: 100%;
+    height: 310px;
+    overflow: scroll;
+    padding-right: 20px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
