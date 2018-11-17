@@ -8,30 +8,30 @@
     <link th:href="@{/css/compilador.css}" rel="stylesheet"/>
 </head>
 <body onload="PR.prettyPrint()">
-<h1>Compilador Mini Java</h1>
-<div>
+<h1 class="titulo"><strong>Compilador Mini Java</strong></h1>
+<div class="compile-arquivo">
     Selecione o arquivo .java para compilar:
     <input type="file" id="fileToLoad" name="file"/>
     <button class="btn btn-primary" onclick="loadFileAsText()">Compilar</button>
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12">
+<div class="col-lg-12 col-md-12 col-sm-12" style="margin-top: 30px">
     <div class="row">
         <div id="java" class="col-md-4">
-            <h3>Código Java</h3>
+            <h3 style="text-align: center">Código Java</h3>
             <pre class="campos" id="java-code"></pre>
         </div>
         <div class="col-md-4">
-            <h3>Token</h3>
+            <h3 style="text-align: center">Token</h3>
             <div class="row">
                 <pre id="token"></pre>
             </div>
-            <h3>Tabela de Símbolos</h3>
+            <h3 style="text-align: center">Tabela de Símbolos</h3>
             <div class="row">
                 <pre id="tabela" class="campo-simbolo"></pre>
             </div>
         </div>
         <div class="col-md-4">
-            <h3>Assembly</h3>
+            <h3 style="text-align: center">Assembly</h3>
             <pre id="assembly" class="campos"></pre>
         </div>
     </div>
@@ -63,6 +63,6 @@
 <script src="/js/load-file.js"></script>
 </body>
 <footer class="footer">
-    Criado por <strong>Bruno Barbosa</strong> e <strong>Yan Gurgel</strong> - Uece Compiladores 2018.1
+    Criado por <strong>Bruno Barbosa</strong> e <strong>Yan Gurgel</strong> - Uece - Compiladores 2018.1
 </footer>
 </html>
