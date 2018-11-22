@@ -49,10 +49,6 @@ header .logotipoHeader{
     background-color: #722040;
 }
 /*----------------------------------------------*/
-.compile-arquivo {
-
-}
-
 .elem-central{
     align-items: center;
     display: flex;
@@ -77,6 +73,22 @@ header .logotipoHeader{
     height: 310px;
     overflow: scroll;
     padding-right: 20px;
+}
+/*scroll dos campos de codigo*/
+.scroll-custom::-webkit-scrollbar {
+    width: 0.7em;
+}
+.scroll-custom::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+.scroll-custom::-webkit-scrollbar-thumb {
+    background-color: rgba(113, 150, 168, 0.3);
+    outline: 1px solid slategrey;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
 }
 
 footer {
