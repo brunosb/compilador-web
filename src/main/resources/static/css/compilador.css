@@ -40,13 +40,13 @@ header .logotipoHeader{
 }
 /*cores input*/
 .inputfile-1 + label {
-    color: #f1e5e6;
-    background-color: #d3394c;
+    color: #FFFFFF;
+    background-color: #032555;
 }
 .inputfile-1:focus + label,
 .inputfile-1.has-focus + label,
 .inputfile-1 + label:hover {
-    background-color: #722040;
+    background-color: #032555;
 }
 /*----------------------------------------------*/
 .elem-central{
@@ -58,6 +58,7 @@ header .logotipoHeader{
 }
 
 .campos {
+    background: #E6E6E6;
     margin-top: 15px;
     display: block;
     width: 100%;
@@ -67,6 +68,7 @@ header .logotipoHeader{
 }
 
 .campo-simbolo {
+    background:  #E6E6E6;
     margin-top: 15px;
     display: block;
     width: 100%;
@@ -129,9 +131,14 @@ footer .logotipo {
     position: relative;
 }
 
-footer .logotipoGesad{
-    margin-top: 60px;
-    border-radius: 48px;
+footer .logotipoFrames{
+    border-radius: 8px;
+    margin-top: 32px;
+    max-width: 313px;
+    max-height: 180px;
+    width: auto;
+    height: auto;
+
 }
 
 footer .col-links,
