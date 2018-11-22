@@ -1,7 +1,25 @@
-.titulo {
-    background-color: darkgray;
-    text-align: center;
+
+header{
+    width: 100%;
+    max-width: 100%;
 }
+
+header .logotipoHeader{
+    width: 100%;
+}
+
+
+
+
+/*----------------------------------------*/
+
+
+
+
+
+
+/*----------------------------------------------*/
+
 
 .compile-arquivo {
 
@@ -57,12 +75,6 @@ footer .text-roxo {
     font-family: 'OpenSans';
     font-weight: bold;
     font-size: 14px;
-}
-
-footer .logotipoJava {
-    margin-top: 2px;
-    margin-left: 35%;
-    position: relative;
 }
 
 footer .logotipo {
@@ -128,7 +140,6 @@ footer .col-get-in-touch p {
 }
 
 footer .row-cinza-claro .LogotipoUece{
-    position: relative;
     position: relative;
     margin-top: 5px;
     size: small;
