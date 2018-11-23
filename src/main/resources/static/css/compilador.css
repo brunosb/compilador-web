@@ -62,9 +62,21 @@ header .logotipoHeader{
     margin-top: 15px;
     display: block;
     width: 100%;
-    height: 600px;
-    overflow: scroll;
+    height: 400px;
+    overflow: auto;
     padding-right: 20px;
+    border-radius: 4%;
+}
+
+.campo-token {
+    background:  #E6E6E6;
+    display: block;
+    width: 100%;
+    height: 40px;
+    overflow: auto;
+    overflow-y: hidden;
+    padding-right: 20px;
+    border-radius: 6%;
 }
 
 .campo-simbolo {
@@ -72,9 +84,10 @@ header .logotipoHeader{
     margin-top: 15px;
     display: block;
     width: 100%;
-    height: 310px;
-    overflow: scroll;
+    height: 300px;
+    overflow: auto;
     padding-right: 20px;
+    border-radius: 4%;
 }
 /*scroll dos campos de codigo*/
 .scroll-custom::-webkit-scrollbar {
